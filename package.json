@@ -1,0 +1,19 @@
+{
+  "name": "pcap-streamer",
+  "version": "1.0.0",
+  "description": "A tool for broadcasting local pcap data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/control-pcap.js"
+  },
+  "bin": {
+    "streampcap": "./bin/streampcap.js"
+  },
+  "author": "Ygarasab",
+  "license": "MIT",
+  "dependencies": {
+    "buffer-broadcaster": "^1.0.0",
+    "pcap-parser": "^0.2.1",
+    "yargs": "^16.0.3"
+  }
+}
